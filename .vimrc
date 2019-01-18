@@ -1,3 +1,15 @@
+" **************************************************************************** "
+"                                                                              "
+"                                                         :::      ::::::::    "
+"    .vimrc                                             :+:      :+:    :+:    "
+"                                                     +:+ +:+         +:+      "
+"    By: gbiebuyc <gbiebuyc@student.s19.be>         +#+  +:+       +#+         "
+"                                                 +#+#+#+#+#+   +#+            "
+"    Created: 2019/01/18 21:37:48 by gbiebuyc          #+#    #+#              "
+"    Updated: 2019/01/18 21:37:49 by gbiebuyc         ###   ########.fr        "
+"                                                                              "
+" **************************************************************************** "
+
 " Default config at 19 coding school
 filetype off
 filetype plugin indent on
@@ -32,5 +44,5 @@ noremap <F6> :e $MYVIMRC<CR>
 noremap <F7> :so $MYVIMRC<CR>
 noremap <PageUp> :bp<CR>
 noremap <PageDown> :bn<CR>
-" Quickly switch to last buffer
+" Quickly switch to previous buffer
 noremap <Tab> :b#<CR> 
