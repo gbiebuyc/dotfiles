@@ -27,11 +27,7 @@ set ruler
 set path+=**
 " Display all matching files when we tab complete
 set wildmenu
-" Don't mess up working dir. The // means that the directory information
-" will be saved in the filename. This will ensure file name uniqueness.
-set backupdir=/tmp//
-set directory=/tmp//
-set undodir=/tmp//
+" Key mappings
 noremap <F6> :e $MYVIMRC<CR>
 noremap <F7> :so $MYVIMRC<CR>
 noremap <PageUp> :bp<CR>
