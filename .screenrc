@@ -1,0 +1,6 @@
+# status bar will resemble tmux.
+hardstatus alwayslastline
+hardstatus string '%{= gk}%?%-w%?%n %t*%+w %= "%H"  %c %d-%M-%Y'
+
+# enable separate screen buffer for full-screen programs like vim.
+altscreen on

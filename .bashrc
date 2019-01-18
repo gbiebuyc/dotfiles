@@ -1,0 +1,8 @@
+alias 42FileChecker='bash ~/42FileChecker/42FileChecker.sh'
+alias rmdsstore='find . -name ".DS_Store" -type f -delete'
+alias gadd='rmdsstore && git add -A && git status'
+alias gcom='git commit -m "my default commit message" && git push'
+alias ll='ls -l'
+PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+USER='gbiebuyc'
+MAIL='gbiebuyc@student.s19.be'
