@@ -6,7 +6,7 @@
 "    By: gbiebuyc <gbiebuyc@student.s19.be>         +#+  +:+       +#+         "
 "                                                 +#+#+#+#+#+   +#+            "
 "    Created: 2019/01/18 21:37:48 by gbiebuyc          #+#    #+#              "
-"    Updated: 2019/01/18 21:37:49 by gbiebuyc         ###   ########.fr        "
+"    Updated: 2019/01/20 19:03:00 by gbiebuyc         ###   ########.fr        "
 "                                                                              "
 " **************************************************************************** "
 
@@ -35,14 +35,12 @@ syntax on
 set number
 set scrolloff=10
 set ruler
+" More natural split opening
+set splitbelow
+set splitright
 " Search files recursively
 set path+=**
 " Display all matching files when we tab complete
 set wildmenu
-" Key mappings
-noremap <F6> :e $MYVIMRC<CR>
-noremap <F7> :so $MYVIMRC<CR>
-noremap <PageUp> :bp<CR>
-noremap <PageDown> :bn<CR>
 " Quickly switch to previous buffer
 noremap <Tab> :b#<CR> 
