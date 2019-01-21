@@ -1,3 +1,5 @@
 [user]
 	email = gbiebuyc@users.noreply.github.com
 	name = gbiebuyc
+[core]
+	editor = vim
