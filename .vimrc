@@ -6,7 +6,7 @@
 "    By: gbiebuyc <gbiebuyc@student.s19.be>         +#+  +:+       +#+         "
 "                                                 +#+#+#+#+#+   +#+            "
 "    Created: 2019/01/18 21:37:48 by gbiebuyc          #+#    #+#              "
-"    Updated: 2019/01/20 19:03:00 by gbiebuyc         ###   ########.fr        "
+"    Updated: 2019/02/07 07:22:05 by gbiebuyc         ###   ########.fr        "
 "                                                                              "
 " **************************************************************************** "
 
@@ -44,3 +44,5 @@ set path+=**
 set wildmenu
 " Quickly switch to previous buffer
 noremap <Tab> :b#<CR> 
+" Turn off highlighting when pressing return
+nnoremap <silent> <CR> :nohlsearch<CR><CR>
