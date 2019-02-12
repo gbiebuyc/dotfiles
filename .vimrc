@@ -6,7 +6,7 @@
 "    By: gbiebuyc <gbiebuyc@student.s19.be>         +#+  +:+       +#+         "
 "                                                 +#+#+#+#+#+   +#+            "
 "    Created: 2019/01/18 21:37:48 by gbiebuyc          #+#    #+#              "
-"    Updated: 2019/02/07 07:22:05 by gbiebuyc         ###   ########.fr        "
+"    Updated: 2019/02/12 14:24:12 by gbiebuyc         ###   ########.fr        "
 "                                                                              "
 " **************************************************************************** "
 
@@ -35,14 +35,13 @@ syntax on
 set number
 set scrolloff=10
 set ruler
-" More natural split opening
 set splitbelow
 set splitright
-" Search files recursively
 set path+=**
-" Display all matching files when we tab complete
 set wildmenu
-" Quickly switch to previous buffer
 noremap <Tab> :b#<CR> 
-" Turn off highlighting when pressing return
-nnoremap <silent> <CR> :nohlsearch<CR><CR>
+let mapleader  = " "
+nnoremap <leader>p :set invpaste paste?<CR>
+nnoremap <leader>h :nohlsearch<CR>
+nnoremap <leader>m :make<CR>
+nnoremap <leader>f :find 
