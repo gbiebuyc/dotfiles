@@ -6,7 +6,7 @@
 "    By: gbiebuyc <gbiebuyc@student.s19.be>         +#+  +:+       +#+         "
 "                                                 +#+#+#+#+#+   +#+            "
 "    Created: 2019/01/18 21:37:48 by gbiebuyc          #+#    #+#              "
-"    Updated: 2019/02/12 14:24:12 by gbiebuyc         ###   ########.fr        "
+"    Updated: 2019/02/13 19:15:43 by gbiebuyc         ###   ########.fr        "
 "                                                                              "
 " **************************************************************************** "
 
@@ -35,13 +35,11 @@ syntax on
 set number
 set scrolloff=10
 set ruler
-set splitbelow
-set splitright
 set path+=**
 set wildmenu
-noremap <Tab> :b#<CR> 
-let mapleader  = " "
+let mapleader = " "
 nnoremap <leader>p :set invpaste paste?<CR>
 nnoremap <leader>h :nohlsearch<CR>
-nnoremap <leader>m :make<CR>
+nnoremap <leader>m :silent :make \| :redraw! \| :botright cwindow<CR>
 nnoremap <leader>f :find 
+nnoremap <leader><leader> :b#<CR>
