@@ -6,7 +6,7 @@
 "    By: gbiebuyc <gbiebuyc@student.s19.be>         +#+  +:+       +#+         "
 "                                                 +#+#+#+#+#+   +#+            "
 "    Created: 2019/01/18 21:37:48 by gbiebuyc          #+#    #+#              "
-"    Updated: 2019/02/13 19:15:43 by gbiebuyc         ###   ########.fr        "
+"    Updated: 2019/02/15 00:40:46 by gbiebuyc         ###   ########.fr        "
 "                                                                              "
 " **************************************************************************** "
 
@@ -43,3 +43,5 @@ nnoremap <leader>h :nohlsearch<CR>
 nnoremap <leader>m :silent :make \| :redraw! \| :botright cwindow<CR>
 nnoremap <leader>f :find 
 nnoremap <leader><leader> :b#<CR>
+nnoremap <leader>v :tabnew $MYVIMRC<CR>
+nnoremap <leader>r :set invrelativenumber<CR>
