@@ -6,7 +6,7 @@
 "    By: gbiebuyc <gbiebuyc@student.s19.be>         +#+  +:+       +#+         "
 "                                                 +#+#+#+#+#+   +#+            "
 "    Created: 2019/01/18 21:37:48 by gbiebuyc          #+#    #+#              "
-"    Updated: 2019/02/15 00:40:46 by gbiebuyc         ###   ########.fr        "
+"    Updated: 2019/03/03 05:03:37 by gbiebuyc         ###   ########.fr        "
 "                                                                              "
 " **************************************************************************** "
 
@@ -33,7 +33,7 @@ set hlsearch
 " Personal changes
 syntax on
 set number
-set scrolloff=10
+set scrolloff=5
 set ruler
 set path+=**
 set wildmenu
