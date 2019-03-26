@@ -6,7 +6,7 @@
 "    By: gbiebuyc <gbiebuyc@student.s19.be>         +#+  +:+       +#+         "
 "                                                 +#+#+#+#+#+   +#+            "
 "    Created: 2019/01/18 21:37:48 by gbiebuyc          #+#    #+#              "
-"    Updated: 2019/03/03 05:03:37 by gbiebuyc         ###   ########.fr        "
+"    Updated: 2019/03/26 13:36:13 by gbiebuyc         ###   ########.fr        "
 "                                                                              "
 " **************************************************************************** "
 
@@ -39,7 +39,7 @@ set path+=**
 set wildmenu
 let mapleader = " "
 nnoremap <leader>p :set invpaste paste?<CR>
-nnoremap <leader>h :nohlsearch<CR>
+nnoremap <silent> <leader>h :let @/ = ""<CR>
 nnoremap <leader>m :silent :make \| :redraw! \| :botright cwindow<CR>
 nnoremap <leader>f :find 
 nnoremap <leader><leader> :b#<CR>
