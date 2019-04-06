@@ -522,6 +522,11 @@
                 <command>gnome-screenshot</command>
             </action>
         </keybind>
+        <keybind key='W-space'>
+            <action name='Execute'>
+                <command>xfce4-appfinder</command>
+            </action>
+        </keybind>
     </keyboard>
     <mouse>
         <!--       Lubuntu specific : Specific mouse settings 
