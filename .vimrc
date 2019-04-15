@@ -6,7 +6,7 @@
 "    By: gbiebuyc <gbiebuyc@student.s19.be>         +#+  +:+       +#+         "
 "                                                 +#+#+#+#+#+   +#+            "
 "    Created: 2019/01/18 21:37:48 by gbiebuyc          #+#    #+#              "
-"    Updated: 2019/04/10 07:43:46 by gbiebuyc         ###   ########.fr        "
+"    Updated: 2019/04/15 03:24:42 by gbiebuyc         ###   ########.fr        "
 "                                                                              "
 " **************************************************************************** "
 
@@ -38,6 +38,7 @@ set ruler
 set path+=**
 set wildmenu
 let mapleader = " "
+set nohlsearch
 nnoremap <leader>p :set invpaste paste?<CR>
 nnoremap <silent> <leader>h :let @/ = ""<CR>
 nnoremap <leader>m :silent :make \| :redraw! \| :botright cwindow<CR>
@@ -47,3 +48,5 @@ nnoremap <leader>v :tabnew $MYVIMRC<CR>
 nnoremap <leader>r :set invrelativenumber<CR>
 nnoremap <leader>s :%s/\<<C-r><C-w>\>/
 nnoremap <f5> :silent :!!<CR>:redraw!<CR>
+inoremap jk <esc>
+inoremap <esc> <nop>
