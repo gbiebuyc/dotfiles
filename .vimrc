@@ -6,7 +6,7 @@
 "    By: gbiebuyc <gbiebuyc@student.s19.be>         +#+  +:+       +#+         "
 "                                                 +#+#+#+#+#+   +#+            "
 "    Created: 2019/01/18 21:37:48 by gbiebuyc          #+#    #+#              "
-"    Updated: 2019/04/15 03:24:42 by gbiebuyc         ###   ########.fr        "
+"    Updated: 2019/04/18 18:40:48 by gbiebuyc         ###   ########.fr        "
 "                                                                              "
 " **************************************************************************** "
 
@@ -36,6 +36,7 @@ set number
 set scrolloff=5
 set ruler
 set path+=**
+set wildignore+=*/SDL/*
 set wildmenu
 let mapleader = " "
 set nohlsearch
@@ -49,4 +50,3 @@ nnoremap <leader>r :set invrelativenumber<CR>
 nnoremap <leader>s :%s/\<<C-r><C-w>\>/
 nnoremap <f5> :silent :!!<CR>:redraw!<CR>
 inoremap jk <esc>
-inoremap <esc> <nop>
