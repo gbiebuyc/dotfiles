@@ -6,7 +6,7 @@
 "    By: gbiebuyc <gbiebuyc@student.s19.be>         +#+  +:+       +#+         "
 "                                                 +#+#+#+#+#+   +#+            "
 "    Created: 2019/01/18 21:37:48 by gbiebuyc          #+#    #+#              "
-"    Updated: 2019/04/18 18:40:48 by gbiebuyc         ###   ########.fr        "
+"    Updated: 2019/04/29 22:42:32 by gbiebuyc         ###   ########.fr        "
 "                                                                              "
 " **************************************************************************** "
 
@@ -39,7 +39,6 @@ set path+=**
 set wildignore+=*/SDL/*
 set wildmenu
 let mapleader = " "
-set nohlsearch
 nnoremap <leader>p :set invpaste paste?<CR>
 nnoremap <silent> <leader>h :let @/ = ""<CR>
 nnoremap <leader>m :silent :make \| :redraw! \| :botright cwindow<CR>
@@ -50,3 +49,4 @@ nnoremap <leader>r :set invrelativenumber<CR>
 nnoremap <leader>s :%s/\<<C-r><C-w>\>/
 nnoremap <f5> :silent :!!<CR>:redraw!<CR>
 inoremap jk <esc>
+autocmd! BufWritePre
