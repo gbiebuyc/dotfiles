@@ -38,6 +38,7 @@ set ruler
 set path+=**
 set wildignore+=*/SDL/*
 set wildmenu
+set showcmd
 let mapleader = " "
 nnoremap <leader>p :set invpaste paste?<CR>
 nnoremap <silent> <leader>h :let @/ = ""<CR>
