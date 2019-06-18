@@ -42,12 +42,14 @@ set showcmd
 let mapleader = " "
 nnoremap <leader>p :set invpaste paste?<CR>
 nnoremap <silent> <leader>h :let @/ = ""<CR>
-nnoremap <leader>m :silent :make \| :redraw! \| :botright cwindow<CR>
+nnoremap <silent> <CR> :let @/ = ""<CR><CR>
+nnoremap <leader>m :silent :make! \| :redraw! \| :botright cwindow<CR>
 nnoremap <leader>f :find 
 nnoremap <leader><leader> :b#<CR>
 nnoremap <leader>v :tabnew $MYVIMRC<CR>
 nnoremap <leader>r :set invrelativenumber<CR>
 nnoremap <leader>s :%s/\<<C-r><C-w>\>/
 nnoremap <f5> :silent :!!<CR>:redraw!<CR>
+nnoremap <f6> :silent :!!<CR>
 inoremap jk <esc>
 autocmd! BufWritePre
