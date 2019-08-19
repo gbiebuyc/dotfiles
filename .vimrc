@@ -37,6 +37,7 @@ set scrolloff=5
 set ruler
 set path+=**
 set wildignore+=*/SDL/*
+set wildignore+=*/SDL2_mixer/*
 set wildmenu
 set showcmd
 let mapleader = " "
