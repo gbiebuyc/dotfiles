@@ -13,11 +13,8 @@
 startup_message off
 
 hardstatus alwayslastline
-#hardstatus string '%{= gk}%?%-w%?%n %t*%+w %= "%H"  %c %d-%M-%Y'
-#hardstatus string "%{= KW} %H [%`] %{= Kw}|%{-} %-Lw%{= bW}%n%f %t%{-}%+Lw %=%C%a %Y-%M-%d"
-#hardstatus string '%{= kG}%-Lw%{= kW}%50> %n%f* %t%{= kG}%+Lw%< %{= kG}%-=%c:%s%{-}'
-#hardstatus string '%{= KW} Screen(s): %-w%{= wk} %50>%n %t%{-}%+w%< %=%{KW}[%c %M %d %Y ]'
 hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %m-%d %{W}%c %{g}]'
+shelltitle "$ |bash"
 
 # enable separate screen buffer for full-screen programs like vim.
 altscreen on

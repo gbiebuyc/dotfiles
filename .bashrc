@@ -17,6 +17,7 @@ alias gl='git log --pretty=format:"%C(yellow)%h %Cred%cr %Cblue%an %Creset%s%Cgr
 alias ga='git add -A && git status'
 alias gc='git commit'
 alias ll='ls -lpA'
-export PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+# https://www.gnu.org/software/screen/manual/screen.html#Naming-Windows
+export PROMPT_COMMAND='printf "\033k\033\134"'
 export USER='gbiebuyc'
 export MAIL='gbiebuyc@student.s19.be'
