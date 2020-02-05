@@ -8,4 +8,4 @@ else
     DRY_RUN=n
 fi
 
-rsync -rivh$DRY_RUN --size-only --delete /e/ /d/ --exclude="System Volume Information" --exclude=\*RECYCLE.BIN\*
+rsync -rivh$DRY_RUN --size-only --delete /d/ /e/ --exclude="System Volume Information" --exclude=\*RECYCLE.BIN\*
