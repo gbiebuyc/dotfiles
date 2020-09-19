@@ -16,8 +16,8 @@ filetype plugin indent on
 set smartindent
 set tabstop=4
 set shiftwidth=4
-" set noexpandtab   " tabs
-set expandtab       " spaces
+set noexpandtab   " tabs
+" set expandtab   " spaces
 set nocompatible
 set encoding=utf-8
 set modelines=1
@@ -37,8 +37,7 @@ set number
 set scrolloff=5
 set ruler
 set path+=**
-set wildignore+=*/SDL/*
-set wildignore+=*/SDL2_mixer/*
+set wildignore+=*.o
 set wildmenu
 set showcmd
 let mapleader = " "
