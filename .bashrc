@@ -16,6 +16,7 @@ alias gl='git log --pretty=format:"%C(yellow)%h %Cred%cr %Cblue%an %Creset%s%Cgr
 alias ga='git add -A && git status'
 alias gc='git commit'
 alias ll='ls -lph'
+alias py='python3'
 # https://www.gnu.org/software/screen/manual/screen.html#Naming-Windows
 # export PROMPT_COMMAND='printf "\033k\033\134"'
 export USER='gbiebuyc'

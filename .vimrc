@@ -10,19 +10,15 @@
 "                                                                              "
 " **************************************************************************** "
 
-" Default config at 19 coding school
-filetype off
 filetype plugin indent on
+autocmd FileType python setlocal noexpandtab softtabstop=0 tabstop=4
+set autoindent
 set smartindent
 set tabstop=4
 set shiftwidth=4
 set noexpandtab   " tabs
 " set expandtab   " spaces
 set nocompatible
-set encoding=utf-8
-set modelines=1
-set hidden
-set ttyfast
 set backspace=indent,eol,start
 set laststatus=2
 set ignorecase
@@ -30,8 +26,6 @@ set smartcase
 set incsearch
 set showmatch
 set hlsearch
-
-" Personal changes
 syntax on
 set number
 set scrolloff=5
