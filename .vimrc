@@ -49,4 +49,3 @@ nnoremap <f5> :silent :!!<CR>:redraw!<CR>
 nnoremap <f6> :silent :!!<CR>
 inoremap jk <esc>
 autocmd! BufWritePre
-set bg=light
