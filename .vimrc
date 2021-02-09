@@ -46,6 +46,6 @@ nnoremap <leader>r :set invrelativenumber<CR>
 nnoremap <leader>s :%s/\<<C-r><C-w>\>/
 nnoremap <leader>w :w<CR>
 nnoremap <f5> :silent :!!<CR>:redraw!<CR>
-nnoremap <f6> :silent :!!<CR>
+nnoremap <f6> :!!<CR>
 inoremap jk <esc>
 autocmd! BufWritePre
