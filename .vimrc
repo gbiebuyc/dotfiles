@@ -34,6 +34,7 @@ set path+=**
 set wildignore+=*.o
 set wildmenu
 set showcmd
+set cinoptions=l1
 let mapleader = " "
 nnoremap <leader>p :set invpaste paste?<CR>
 nnoremap <silent> <leader>h :let @/ = ""<CR>
